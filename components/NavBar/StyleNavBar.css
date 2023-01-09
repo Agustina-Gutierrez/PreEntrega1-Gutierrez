@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-position: center;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.nav-container li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+.nav-container li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 23px;
+  padding: 15px;
+}
+.nav-container li:hover {
+  background-color: #804a18;
+  padding:15px;
+  border-radius: 5px;
+
+}
+.nav-container li a:hover{
+  color: white;
+
+}
+#carrito{
+  width: 70px;
+  height:70px;
+}
