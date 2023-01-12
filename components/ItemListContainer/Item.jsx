@@ -2,9 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './StyleItems.css';
 function Item(props) {
-	const {href, image , product , price} = props.item;
 	return (
-		<Link className="item-card" to={props.href}>
+		<Link id="content-item" className="item-card" to={props.id}>
 		  <div className="item-card_image">
 		    <img src={props.image} alt={props.product} />
 		  </div>
